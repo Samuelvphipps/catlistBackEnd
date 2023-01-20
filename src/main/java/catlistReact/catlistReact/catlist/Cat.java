@@ -25,9 +25,9 @@ public class Cat {
     private int age;
 
     //this constructor exists simply for JPA
-    protected Cats() {};
+    protected Cat() {};
 
-    public Cats(String name, String breed, int age) {
+    public Cat(String name, String breed, int age) {
         this.name = name;
         this.breed = breed;
         this.age = age;
